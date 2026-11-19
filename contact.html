@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | EcoLife</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">🌿 Eco<span>Life</span></a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="challenges.html">Challenges</a></li>
+            <li><a href="tracker.html">Tracker</a></li>
+            <li><a href="tips.html">Eco Tips</a></li>
+            
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-banner">
+    <h1>Contact EcoLife 💌</h1>
+    <p>Have a suggestion or an idea for a greener future? Share it using our demo form.</p>
+</section>
+
+<section class="section">
+    <div class="container two-column">
+
+        <div>
+            <h2>We Value Your Ideas</h2>
+            <p>
+                Environmental awareness grows when people share ideas,
+                ask questions and learn from one another.
+            </p>
+
+            <div class="contact-info mt-20">
+
+                <div class="contact-item">
+                    <h3>🌿 Share an Idea</h3>
+                    <p>Tell us about an environmental topic you would like to explore.</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>💡 Suggest a Feature</h3>
+                    <p>Suggest a useful feature that could improve this educational project.</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>🌍 Spread Awareness</h3>
+                    <p>Encourage responsible habits in your community.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h2 class="section-title">Send a Message</h2>
+
+            <form id="contactForm">
+
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" maxlength="80" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" maxlength="254" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter the subject" maxlength="120" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message..." maxlength="2000" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Submit Message</button>
+
+                <p id="contactMessage" class="form-message" aria-live="polite"></p>
+
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>© 2026 EcoLife | Small Steps, Greener Future 🌿</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="tips.html">Eco Tips</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

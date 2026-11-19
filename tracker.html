@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Eco Tracker | EcoLife</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">🌿 Eco<span>Life</span></a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="challenges.html">Challenges</a></li>
+            <li><a href="tracker.html">Tracker</a></li>
+            <li><a href="tips.html">Eco Tips</a></li>
+           
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-banner">
+    <h1>Your Daily Eco Tracker ✅</h1>
+    <p>Track your eco-friendly habits and celebrate your daily progress.</p>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="form-container">
+            <h2 class="section-title">Today's Eco Habits</h2>
+            <p class="section-description">Tick each habit after completing it.</p>
+
+            <div id="ecoTracker">
+
+                <ul class="task-list">
+                    <li>
+                        <input type="checkbox" id="task1">
+                        <label for="task1">💧 I avoided wasting water.</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="task2">
+                        <label for="task2">💡 I switched off unused lights.</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="task3">
+                        <label for="task3">♻️ I avoided unnecessary disposable items.</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="task4">
+                        <label for="task4">🌱 I took care of a plant or natural space.</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="task5">
+                        <label for="task5">🗑️ I put my waste in the appropriate bin.</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="task6">
+                        <label for="task6">🥗 I avoided wasting food.</label>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="task7">
+                        <label for="task7">🚶 I considered an environmentally friendly travel option.</label>
+                    </li>
+                </ul>
+
+                <div class="progress-wrapper">
+                    <strong>Your Daily Progress</strong>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+
+                    <p id="progressText" aria-live="polite">0 of 7 habits completed (0%)</p>
+                </div>
+
+            </div>
+
+            <p><small>Your progress is stored locally in this browser for the current date. Clearing browser data may remove it.</small></p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section impact-section">
+    <div class="container">
+        <h2 class="section-title">Keep Going 🌿</h2>
+        <p class="section-description">You do not need to change everything in one day. Consistent, realistic actions can help build better habits.</p>
+
+        <div class="text-center">
+            <a href="tips.html" class="btn">Get More Eco Tips</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>© 2026 EcoLife | Small Steps, Greener Future 🌿</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="challenges.html">Challenges</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
